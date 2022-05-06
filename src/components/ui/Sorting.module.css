@@ -1,0 +1,34 @@
+
+.sorting{
+    display: flex;
+    align-items: center;
+}
+.sortBtn{
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/sort.svg);
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.sortWord{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #9B9B9B;
+}
+
+.sortSelect{
+    background-position: center right;
+    padding-right: 24px;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/s_down.svg);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 15px;
+}

@@ -1,0 +1,92 @@
+.product-card-box{
+    width: calc(100% / 3);
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 52px;
+}
+
+.product-card{
+    width: 100%;
+}
+
+.product-card__image{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s ease;
+}
+
+.product-card:hover img{
+    transform: scale(1.06);
+}
+
+.bestseller{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 127.4px;
+    height: 29.17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.product-card__image button{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.product-card__description{
+    margin-top: 8px;
+}
+
+.card-category{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    color: #656565;
+
+}
+
+.card-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 37px;
+    margin: 9px 0;
+    color: #000000;
+}
+
+.card-price{
+    display: block;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 32px;
+    color: #656565;
+}
+
+.listAddtoButton{
+    transform: translateY(47px);
+    transition: .7s ease;
+}
+
+.product-card:hover .listAddtoButton{
+    transform: translateY(0);
+}

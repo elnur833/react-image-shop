@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+	list-style-type: none;
+	border: 0;
+	font-family: 'Archivo', sans-serif;
+
+}
+
+input,
+select {
+	appearance: none;
+	-moz-appearance: none;
+	/* Firefox */
+	-webkit-appearance: none;
+	/* Safari and Chrome */
+}
+
+.paginationBttns{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.paginationBttns li{
+	margin: 0 16px;
+	cursor: pointer;
+}
+
+.paginationBttns li a{
+	font-weight: 400;
+	font-size: 29px;
+	line-height: 32px;
+	text-align: right;
+	color: #B4B4B4;
+	transition: .5s ease;
+}
+
+.paginationBttns li.paginationActive a{
+	font-weight: 600;
+	font-size: 29px;
+	line-height: 32px;
+	text-align: right;
+
+	color: #000000;
+}
+
+.paginationBttns .previous a,
+.paginationBttns .next a{
+	width: 16px;
+	height: 16px;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: transparent;
+}
+
+.paginationBttns .previous a{
+	background-image: url(assets/images/prev.svg);
+}
+
+.paginationBttns .next a{
+	background-image: url(assets/images/next.svg);
+}
+
+.paginationDisabled{
+	opacity: .5;
+	pointer-events: none;
+}

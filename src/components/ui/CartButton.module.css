@@ -1,0 +1,31 @@
+.cart-button{
+    width: 54px;
+    height: 54px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/basket.svg);
+    cursor: pointer;
+    position: relative;
+}
+
+.header-cart-btn{
+    position: relative;
+}
+
+.header-cart-btn span{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    right: -12px;
+    bottom: -12px;
+    width: 22px;
+    height: 22px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+}

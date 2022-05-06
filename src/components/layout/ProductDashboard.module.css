@@ -1,0 +1,42 @@
+.product-dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 68px 0;
+}
+
+.breadcrumb ul{
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb ul li{
+    position: relative;
+    margin-right: 37px;
+}
+
+.breadcrumb ul li:after{
+    position: absolute;
+    right: -24px;
+    top: 2px;
+    content: '/';
+    font-size: 30px;
+    line-height: 33px;
+    color: #000;
+}
+
+.breadcrumb ul li:last-child::after{
+    content: none;
+}
+
+.breadcrumb ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    color: #9B9B9B;
+}
+
+.breadcrumb ul li a.active{
+    color: #000;
+    font-weight: 700;
+}
